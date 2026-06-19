@@ -1,1 +1,61 @@
+>> Playwright Download Process:
+
+=> We have to Install nodeJS from the official website of nodeJS.
+=> For check the version of nodeJS:
+    Open Terminal
+    and write: npm --version 
+                    or
+               npm -v
+
+>> Installation Process:
+>> Installing using command as npm package:
+
+STEP 1:
+==> Create a new folder and open in VS Code.
+
+
+STEP 2:
+==> Goto Terminal of VS Code and run command:
+              npm init playwright@latest
+
+  => If you want to install any specific version so write that version at latest place  
+              for eg= playwright@9.6.2 etc.
+
+==> Then, teminal asks you some Qustions like what do you want and all other stuff,
+    so give it the answer with which you want to do.
+
+STEP 3:
+==> Following will be added:
+    ==> package.json           = node project management file
+    ==> playwright.json        = Configuration file
+    ==> tests folder           = absic example test
+    ==> tests-examples folder  = detailed example tests
+    ==> .gitignore             = to be used during git commit and push
+    ==> playwright.yml         = to be used during CI/CD Pipeline
+
+STEP 4:
+==> Check Playwright added:
+          npm playwright -v
+
+STEP 5: Check Playwright command options:
+          npx playright -h
+                  or
+          npx playwright --help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
